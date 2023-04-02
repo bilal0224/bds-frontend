@@ -6,6 +6,6 @@ export const instance = axios.create({
 });
 
 export const instance1 = axios.create({
-    baseURL:"https://bds-ngo.herokuapp.com/api",
+    baseURL:"https://bds-ngo-backend-production.up.railway.app/api",
 });
 export default instance
